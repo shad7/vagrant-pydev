@@ -1,0 +1,7 @@
+---
+# python33 install
+
+# http://www.python.org/ftp/python/3.3.5/Python-3.3.5.tgz
+
+- name: install python 3.3
+  apt: name=python3.3-complete state=latest

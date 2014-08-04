@@ -1,0 +1,7 @@
+---
+# python26 install
+
+# https://www.python.org/ftp/python/2.6.9/Python-2.6.9.tgz
+
+- name: install python 2.6
+  apt: name=python2.6-complete state=latest

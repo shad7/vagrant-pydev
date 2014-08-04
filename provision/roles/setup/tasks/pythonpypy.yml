@@ -1,0 +1,7 @@
+---
+# python pypy install
+
+# https://bitbucket.org/pypy/pypy/downloads/pypy-2.3.1-linux64.tar.bz2
+
+- name: install python pypy
+  apt: name=pypy state=latest

@@ -1,0 +1,7 @@
+---
+# python32 install
+
+# https://www.python.org/ftp/python/3.2.5/Python-3.2.5.tgz
+
+- name: install python 3.2
+  apt: name=python3.2-complete state=latest

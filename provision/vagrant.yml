@@ -1,0 +1,6 @@
+---
+# primary playbook
+
+- hosts: all
+  roles:
+    - setup
