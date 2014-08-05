@@ -26,6 +26,9 @@ vagrant up
 vagrant ssh
 ```
 
+For additional information on using vagrant, please check out the documentation at:
+http://docs.vagrantup.com/
+
 
 Why?
 ----------
