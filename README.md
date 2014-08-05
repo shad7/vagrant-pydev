@@ -8,12 +8,12 @@ What is included?
 * ansible
 * pip
 * python
-        - python2.6
-        - python2.7 (default and default python2)
-        - python3.2
-        - python3.3
-        - python3.4 (default python3)
-        - pypy
+  - python2.6
+  - python2.7 (default and default python2)
+  - python3.2
+  - python3.3
+  - python3.4 (default python3)
+  - pypy
 
 Why?
 ----------
