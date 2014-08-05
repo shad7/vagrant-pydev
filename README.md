@@ -15,6 +15,18 @@ What is included?
   - [python3.4](https://docs.python.org/3.4/) (**default python3**)
   - [pypy](http://pypy.org/)
 
+
+Getting Started
+----------------
+
+```bash
+git clone https://github.com/shad7/vagrant-pydev.git
+cd vagrant-pydev
+vagrant up
+vagrant ssh
+```
+
+
 Why?
 ----------
 While I believe in CI and typically leverage [Jenkins](http://jenkins-ci.org/) or [Travis](https://travis-ci.org/) for that purpose,
