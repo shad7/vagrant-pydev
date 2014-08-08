@@ -4,7 +4,7 @@
 - name: install packages
   apt: pkg={{ item }} update_cache=yes state=present
   with_items:
-    - gcc
+    - build-essential
     - python-dev
     - git
     - bash-completion
@@ -14,17 +14,5 @@
 
 - include: nginx.yml
 
-- name: add python (deadsnake) repo gpg key
-  apt_key: id=DB82666C keyserver=keyserver.ubuntu.com state=present
-
-- name: add python (deadsnake) apt repository
-  apt_repository: repo='ppa:fkrull/deadsnakes'
-
-- include: python26.yml
-# python27 should be default python2; not including here
-- include: python32.yml
-- include: python33.yml
-# python34 should be default python3; not including here
-- include: pythonpypy.yml
-
+- include: python.yml
 
